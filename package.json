@@ -1,0 +1,33 @@
+{
+  "name": "pmg-portal",
+  "version": "1.0.0",
+  "description": "PMG Agent Orchestration Portal",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "build:css": "tailwindcss -i ./src/styles.css -o ./public/css/styles.css --minify",
+    "dev:css": "tailwindcss -i ./src/styles.css -o ./public/css/styles.css --watch",
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc && npm run build:css",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hono/node-server": "^1.14.1",
+    "@tailwindcss/cli": "^4.1.5",
+    "autoprefixer": "^10.4.21",
+    "cssnano": "^7.0.6",
+    "daisyui": "^5.5.19",
+    "hono": "^4.7.7",
+    "htmx.org": "^1.9.12",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
