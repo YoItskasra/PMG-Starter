@@ -1,0 +1,1 @@
+{"version":3,"file":"task-row.d.ts","sourceRoot":"","sources":["../../../src/views/partials/task-row.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,UAAU,EAAE,MAAM,mBAAmB,CAAC;AAE/C,MAAM,WAAW,WAAW;IAC1B,IAAI,EAAE,UAAU,CAAC;CAClB;AAED,eAAO,MAAM,cAAc,GAAI,MAAM,WAAW,KAAG,MA6BlD,CAAC;AAEF,wBAAgB,cAAc,CAAC,KAAK,EAAE,UAAU,EAAE,GAAG,MAAM,CAE1D"}
